@@ -1,0 +1,264 @@
+/*
+             Designing using Hyper-Text Markup Language HTML. Assignment 1. 
+                 About Me Page.css
+                 Author: Paige Webster
+                 Date: 03 Mar 2021
+                 Filename: 			Layout.css
+                 Supporting Files: warhammer Pic 1.jpg, warhammer Pic 2.jpg, warhammer Pic 3.webp, Background Pic 1.JPG
+*/
+
+/* File Builder and Display for HTML Codes */
+
+article, aside, figure, figcaption, footer, hgroup, header, 
+section, nav {
+   display: block;
+}
+
+/* Page Styles */
+
+/* Body Styles */
+body {
+   background-color: black;
+   background: url(BackgroundPic1.JPG) no-repeat;
+   background-size: cover;
+   background-position: center;
+   width: 100%;
+ /*   min-width: 1000px;
+   max-width: 1025px;  */
+   font-family: Verdana, Geneva, sans-serif;
+   font-weight: bold;
+
+}
+
+/* Header Styles */
+header {
+   background: url(BackgroundPic3.JPG) repeat-x;
+   background-size: contain;
+   background-position: center;
+	width: 100&
+	Margin-center: 0px;
+}
+header h1 {
+   clear:  left;
+   width: 100%;
+   font-size: 3.5em;
+   font-weight: bold;
+   font-family: Algerian;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: blueviolet;
+   
+   text-align: center;
+   color:  white;
+
+   letter-spacing: 5px;
+   line-height: 2em;
+}
+
+/* Navigation Styles */
+
+	/* Vertical Navigation Styles */
+
+nav.vertical {
+   float: left;
+   text-decoration: none;
+
+   width: 15%;
+   background-color: black;
+		opacity:.8;
+   color: white;
+   margin-top: -10px;
+
+	-op-background-size: contain;
+	-moz-background-size: contain;
+	-webkite-background-size: contain;
+	background-size: contain;
+}
+
+nav.vertical ul {
+   margin-left: 10px;
+}
+
+nav.vertical li.lTitle {
+   font-size: 0.8em;
+   margin-top: 30px;
+   margin-bottom: 12px;
+   color: White;
+}
+
+nav.vertical li {
+   display: block;
+   margin-bottom: 3px;
+}
+
+nav.vertical li a {
+   display:block;
+   width: 100%;
+   font-size: 0.7em;
+   margin-left: 15px;
+   color: White;
+}
+
+nav.vertical li a:hover {
+  background-color: green;
+  color: yellow; 
+  outline: 2px solid red;
+}
+	
+	/* Horizontal Navigation Styles (Header) */
+
+header ul{
+	margin: 0px;
+	width: 100%;
+	padding: 0px;
+	list-style: none;
+}
+
+header ul li{
+	float: left;
+	width: 200px;
+	height: 40px;
+	background-color: black;
+		opacity:.8;
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+}
+
+header ul li a{
+	text-decoration: none;
+	color: white;
+	dispay: block;
+}
+
+header ul li a:hover{
+	background-color: green;
+	color: yellow;
+}
+
+header ul li ul li {
+	display: none;
+}
+
+header ul li:hover ul li{
+	display: block;
+}
+
+/* Section Styles */
+
+section {
+	margin-top: 20px;
+}
+
+/* Section Articles */
+section article h2 {
+   margin: 0px 0px 15px 0px;
+   font-weight: normal;
+   text-align: center;
+   color:  white;
+   background-color: black;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: blueviolet;
+   width: 100%; 
+	
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: blueviolet;
+	-webkit-border-top-left-radius: 40px;
+	-webkit-border-top-right-radius: 40px;
+	
+	-moz-border-radius-topleft: 40px;
+	border-top-left-radius: 40px;
+
+	-moz-border-radius-topright: 40px;
+	border-top-right-radius: 40px;	
+	
+   font-size: 1.2em;
+   letter-spacing: 5px;
+   line-height: 2em;
+}
+
+section article {
+   background-color: white;
+	opacity: .8; 
+   border: 2px  solid black;
+   width: 100%; 
+   border-radius: 45px;
+   margin-bottom: 15px;
+	-moz-border-radius: 40px;
+	-webkit-border-radius: 40px;
+}
+
+section article p {
+   font-size: 0.9em;
+   margin: 15px;
+}
+/* Middle Section Styles */
+section.middle {
+	
+   width:  40%;
+   float: left;
+   margin-left: 25px;
+}
+
+section.middle img {
+   float: left;
+   clear: left;
+   margin: 0px 5px 0px 0px;
+}
+/* Right Section Styles */
+
+section.right {
+   width: 40%;
+   float: left;
+   margin-left: 15px;
+} 
+
+section.right article:first-of-type {
+  text-align: center;
+}
+
+/* Footer Styles */
+
+footer {
+   background: url(BackgroundPic2.JPG) no-repeat;
+	   background-size: cover;
+	   background-position: center;
+   clear: left;
+   margin-left: 0%;
+   width: 100%;
+   padding-bottom: 20px;
+}
+
+footer nav ul li {
+   width: 13.5%;
+   font-size: 80%;
+   display: block; 
+   float: left; 
+   margin: 0px 2px;
+   text-align: center;
+}
+
+footer nav ul  li a {
+   display: block;
+   border: 1px solid black;
+   width: 100%;
+   background-color: black;
+   color: white;
+}
+
+footer nav ul a:hover {
+  background-color: white;
+  color: black; 
+  outline: 2px solid white;
+}
+
+
+footer address {
+  /* background-color: black; */
+  color: white;
+  font-weight: normal;
+  font-variant: smallcaps;
+  font-size: 1em;
+  line-height: 4em;
+  font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+  text-align: center;
+}
